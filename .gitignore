@@ -8,3 +8,10 @@
 # terraform state files
 *.tfstate
 *.tfstate.*
+
+# ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# ignore crash logs
+crash.logs
